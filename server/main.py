@@ -1,7 +1,7 @@
 from flask import Flask, request, render_template
 import pickle
 
-with open("D:\Code\Hackathon\Hackathon\server\Hackathon_Model.pkl", "rb") as file:
+with open("/Hackathon_Model.pkl", "rb") as file:
     model = pickle.load(file)
 
 
